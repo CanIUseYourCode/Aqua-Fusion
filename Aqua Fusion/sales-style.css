@@ -1,0 +1,99 @@
+@import "dash-style.css";
+@import url("dash-style.css");
+
+.table-data {
+    position: relative;
+    top: 0;
+    width: auto;
+  }
+  
+  .table-header {
+    position: absolute;
+    top: 90px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 1450px;
+    left: 400px;
+  }
+  
+  /* Style the header button */
+  .table-header button {
+    position: relative;
+    right: 650px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1a87e0;
+    height: 48px;
+  }
+  
+  /* Style the header button when hovered */
+  .table-header button:hover {
+    transform: scale(1.04);
+    background-color: #1679d4;
+  }
+  
+  /* Style the table */
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 33%;
+  }
+  .text-header {
+    color: white;
+  }
+  th{
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+    background-color: #07070f;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the form */
+  form {
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="submit"] {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #1f54e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
